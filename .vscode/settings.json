@@ -5,6 +5,7 @@
         "Binarizing",
         "CMYK",
         "imread",
+        "imshow",
         "Lmax",
         "Sidi",
         "Sobel",
