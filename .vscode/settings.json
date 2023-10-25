@@ -4,6 +4,7 @@
         "binarized",
         "Binarizing",
         "CMYK",
+        "FFMC",
         "imread",
         "imshow",
         "Lmax",
