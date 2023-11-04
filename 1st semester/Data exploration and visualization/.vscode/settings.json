@@ -4,11 +4,15 @@
     "boxplot",
     "curent",
     "dropna",
+    "ffill",
     "FFMC",
     "figsize",
+    "fillna",
     "quantile",
     "scatterplot",
     "sidi",
-    "xlabel"
+    "xlabel",
+    "xticklabels",
+    "ydata"
   ]
 }
