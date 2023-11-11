@@ -6,6 +6,7 @@
         "cmin",
         "imread",
         "imshow",
+        "XNOR",
         "ycbcr"
     ]
 }
