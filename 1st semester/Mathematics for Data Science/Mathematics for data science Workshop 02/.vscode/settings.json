@@ -1,0 +1,13 @@
+{
+  "cSpell.words": [
+    "allclose",
+    "astype",
+    "cofactor",
+    "dtype",
+    "hstack",
+    "linalg",
+    "ndarray",
+    "RREF",
+    "submatrix"
+  ]
+}
