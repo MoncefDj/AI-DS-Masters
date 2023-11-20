@@ -1,17 +1,21 @@
 {
   "cSpell.words": [
+    "astype",
     "autopct",
     "Bejaia",
     "boxplot",
     "curent",
     "dropna",
+    "dtype",
     "ffill",
     "FFMC",
     "figsize",
     "fillna",
+    "iloc",
     "quantile",
     "scatterplot",
     "sidi",
+    "tarnsforming",
     "xlabel",
     "xticklabels",
     "ydata"
