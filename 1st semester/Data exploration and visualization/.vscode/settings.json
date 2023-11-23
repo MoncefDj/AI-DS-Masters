@@ -20,8 +20,11 @@
     "scatterplot",
     "sidi",
     "tarnsforming",
+    "xaxis",
     "xlabel",
     "xticklabels",
-    "ydata"
+    "yaxis",
+    "ydata",
+    "ylabel"
   ]
 }
