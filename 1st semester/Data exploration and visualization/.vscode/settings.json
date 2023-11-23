@@ -1,9 +1,12 @@
 {
   "cSpell.words": [
+    "annot",
     "astype",
     "autopct",
     "Bejaia",
     "boxplot",
+    "cmap",
+    "coolwarm",
     "curent",
     "dropna",
     "dtype",
@@ -12,6 +15,7 @@
     "figsize",
     "fillna",
     "iloc",
+    "interquartile",
     "quantile",
     "scatterplot",
     "sidi",
