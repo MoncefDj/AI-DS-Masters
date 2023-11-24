@@ -16,6 +16,8 @@
     "fillna",
     "iloc",
     "interquartile",
+    "ipywidgets",
+    "mplcursors",
     "quantile",
     "scatterplot",
     "sidi",
