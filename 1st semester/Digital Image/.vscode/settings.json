@@ -5,9 +5,12 @@
         "cmap",
         "cmax",
         "cmin",
+        "figsize",
         "imread",
         "imshow",
+        "xlabel",
         "XNOR",
-        "ycbcr"
+        "ycbcr",
+        "ylabel"
     ]
 }
