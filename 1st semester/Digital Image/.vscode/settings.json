@@ -10,6 +10,7 @@
         "imin",
         "imread",
         "imshow",
+        "lmax",
         "rmax",
         "xlabel",
         "XNOR",
