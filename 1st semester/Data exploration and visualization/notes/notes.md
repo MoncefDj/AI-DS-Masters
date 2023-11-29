@@ -1,23 +1,69 @@
 # Notes
 
+## scatter plots
+
+### all data sp
+
+- When `BUI` is less than 20, there is no fire observed.
+  ![bui scatter](<bui note.png>)
+- Fire is not observed when `DMC` is below 15.
+  ![dmc scatter](<dmc note.png>)
+- Fire is not observed when the value of `FFMC` is less than 80.
+  ![ffmc scatter](<ffmc note.png>)
+- If `FWI` is less than 10, no fire is detected.
+  ![fwi scatter](<fwi note.png>)
+- No fire is observed when `ISI` is below 20.
+  ![isi scatter](<isi note.png>)
+- The `FWI` value is considered excessive when `ISI` ranges from 20 to 70 and `FFMC` ranges from 75 to 150.
+  ![fwi scatter2](<fwi note2.png>)
+
+### bejaia sp
+
+- When `DC` is less than 25, there is no fire observed.
+  ![b_dc_note](b_dc_note.png)
+
 ## time series
 
-### bejaia
+### bejaia ts
 
-behavior_1 = [Temperature, FFMC, DMC, DC, ISI, BUI, FWI]
-behavior_2 = [RH, Rain, Classes]
-behavior_3 = [Ws]
+In the region of Bejaia, the following behaviors were observed:
 
-### sidi bel abbes
+- We have noticed that it is possible to draw a line that can divide the plot into two distinct parts.
+  ![b_tsp_note](b_tsp_note.png)
 
-behavior_1 = [Temperature, FFMC, DMC, ISI, BUI, FWI]
-behavior_2 = [RH, Rain, Classes]
-behavior_3 = [Ws]
-behavior_4 = [DC]
+- Behavior 1 includes Temperature, FFMC, DMC, DC, ISI, BUI, and FWI. Please refer to the image "bejaia behavior 1" for more details.
+  <!-- behavior_1 = [Temperature, FFMC, DMC, DC, ISI, BUI, FWI] -->
+  ![bejaia behavior 1](<b_behavior 1.jpg>)
+- Behavior 2 consists of RH, Rain, and Classes. For further information, please see the image "bejaia behavior 2."
+  <!-- behavior_2 = [RH, Rain, Classes] -->
+  ![bejaia behavior 2](<b_behavior 2.jpg>)
+- Behavior 3 is characterized by Ws. Please refer to the image "bejaia behavior 3" for more details.
+  <!-- behavior_3 = [Ws] -->
+  ![bejaia behavior 3](<b_behavior 3.jpg>)
+
+### sidi bel abbes ts
+
+In the region of Sidi Bel Abbes, the following behaviors were observed:
+
+- We have noticed that it is possible to draw a line that can divide the plot into two distinct parts.
+  ![s_tsp_note](s_tsp_note.png)
+
+- Behavior 1 includes Temperature, FFMC, DMC, ISI, BUI, and FWI. Please refer to the image "sidi bel abbes behavior 1" for more details.
+  <!-- behavior_1 = [Temperature, FFMC, DMC, ISI, BUI, FWI] -->
+  ![sidi bel abbes behavior 1](<s_behavior 1.jpg>)
+- Behavior 2 consists of RH, Rain, and Classes. For further information, please see the image "sidi bel abbes behavior 2."
+- Behavior 3 is characterized by Ws. Please refer to the image "sidi bel abbes behavior 3" for more details.
+  <!-- behavior_2 = [RH, Rain, Classes] -->
+  ![sidi bel abbes behavior 2](<s_behavior 2.jpg>)
+  <!-- behavior_3 = [Ws] -->
+  ![sidi bel abbes behavior 3](<s_behavior 3.jpg>)
+- Behavior 4 includes DC. Please refer to the image "sidi bel abbes behavior 4" for more details.
+  <!-- behavior_4 = [DC] -->
+  ![sidi bel abbes behavior 4](<s_behavior 4.jpg>)
 
 ## heat maps
 
-### all data
+### all data hm
 
 - Temperature has a strong positive correlation with FFMC (Fine Fuel Moisture Code), DMC (Duff Moisture Code), and DC (Drought Code), indicating that as temperature increases, these variables also tend to increase.
 - Temperature has a moderate negative correlation with RH (Relative Humidity), suggesting that as temperature increases, relative humidity tends to decrease.
@@ -27,6 +73,8 @@ behavior_4 = [DC]
 - DMC and BUI have a strong positive correlation, suggesting that as DMC increases, so does BUI.
 - FFMC and DMC have a strong positive correlation with ISI and FWI (Fire Weather Index), indicating that as FFMC and DMC increase, ISI and FWI also tend to increase.
 - Classes have a strong negative correlation with FFMC, DMC, DC, ISI, BUI, and FWI, suggesting that as these fire danger variables increase, the fire classes tend to decrease.
+
+![hm](hm.png)
 
 ### bejaia hm
 
@@ -44,6 +92,8 @@ Here are the insights that can be derived from the correlation matrix you provid
 - FWI has a strong positive correlation with FFMC, DMC, DC, ISI, and BUI. This suggests that as FWI increases, these fire danger variables tend to increase.
 - Classes have a strong negative correlation with FFMC, DMC, DC, ISI, BUI, and FWI. This implies that as these fire danger variables increase, the fire classes tend to decrease.
 
+![b_hm](b_hm.png)
+
 ### sidi bel abbes hm
 
 - Temperature has a strong positive correlation with FFMC (Fine Fuel Moisture Code), ISI (Initial Spread Index), and BUI (Build Up Index). This suggests that as temperature increases, these variables tend to increase as well.
@@ -58,4 +108,8 @@ Here are the insights that can be derived from the correlation matrix you provid
 - FWI has a strong positive correlation with FFMC, ISI, and BUI. This suggests that as FWI increases, these fire danger variables tend to increase as well.
 - Classes have a strong negative correlation with FFMC, RH, DC, and FWI. This implies that as these fire danger variables increase, the fire classes tend to decrease.
 
-As with any correlation analysis, it's important to note that correlation does not imply causation, and further analysis and domain knowledge are necessary to draw definitive conclusions based on these correlations.
+![s_hm](s_hm.png)
+
+## Ethical Considerations
+
+- As with any correlation analysis, it's important to note that correlation does not imply causation, and further analysis and domain knowledge are necessary to draw definitive conclusions based on these correlations.
