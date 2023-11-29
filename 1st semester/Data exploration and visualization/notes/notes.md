@@ -1,5 +1,7 @@
 # Notes
 
+-I utilized pie charts, bar charts, histograms, and box plots to gain a deep understanding of the data distributions and to identify outliers.
+
 ## scatter plots
 
 ### all data sp
