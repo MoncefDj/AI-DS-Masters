@@ -1,7 +1,5 @@
 # Notes
 
--I utilized pie charts, bar charts, histograms, and box plots to gain a deep understanding of the data distributions and to identify outliers.
-
 ## scatter plots
 
 ### all data sp
@@ -30,7 +28,7 @@
 
 In the region of Bejaia, the following behaviors were observed:
 
-- We have noticed that it is possible to draw a line that can divide the plot into two distinct parts.
+- We have noticed that it is possible to draw a line that can divide the plot of `FFMC, DMC, DC, ISI, BUI, FWI` into two distinct parts.
   ![b_tsp_note](b_tsp_note.png)
 
 - Behavior 1 includes Temperature, FFMC, DMC, DC, ISI, BUI, and FWI. Please refer to the image "bejaia behavior 1" for more details.
@@ -47,7 +45,7 @@ In the region of Bejaia, the following behaviors were observed:
 
 In the region of Sidi Bel Abbes, the following behaviors were observed:
 
-- We have noticed that it is possible to draw a line that can divide the plot into two distinct parts.
+- We have noticed that it is possible to draw a line that can divide the plot of `FFMC, DMC, DC, BUI`into two distinct parts.
   ![s_tsp_note](s_tsp_note.png)
 
 - Behavior 1 includes Temperature, FFMC, DMC, ISI, BUI, and FWI. Please refer to the image "sidi bel abbes behavior 1" for more details.
@@ -111,7 +109,3 @@ Here are the insights that can be derived from the correlation matrix you provid
 - Classes have a strong negative correlation with FFMC, RH, DC, and FWI. This implies that as these fire danger variables increase, the fire classes tend to decrease.
 
 ![s_hm](s_hm.png)
-
-## Ethical Considerations
-
-- As with any correlation analysis, it's important to note that correlation does not imply causation, and further analysis and domain knowledge are necessary to draw definitive conclusions based on these correlations.
