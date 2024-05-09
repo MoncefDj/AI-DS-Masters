@@ -1,7 +1,12 @@
 {
   "cSpell.words": [
+    "allclose",
     "astype",
+    "Diagonalizability",
     "dtype",
+    "eigenvals",
+    "eigenvecs",
+    "invertibility",
     "linalg",
     "submatrix"
   ]
