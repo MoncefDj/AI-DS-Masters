@@ -21,7 +21,7 @@ The tasks involved in this project include:
 
 4. **Feature Extraction**:
 
-   - Using TF-IDF vectorization to convert text into numerical features for machine learning.
+   - Using vectorization to convert text into numerical features for machine learning.
 
 5. **Model Selection and Implementation**:
 
@@ -41,19 +41,5 @@ The tasks involved in this project include:
 
    - Evaluating the performance of models using metrics like accuracy, precision, recall, and F1-score.
    - Comparing model performance to identify the best-performing algorithms.
-
-8. **Hyperparameter Tuning**:
-
-   - Optimizing the models using techniques like grid search or random search.
-   - Analyzing the impact of hyperparameter tuning on model performance.
-
-9. **Model Comparison and Insights**:
-
-   - Comparing the performance of different models and their tuned versions.
-   - Interpreting the results and providing insights into the characteristics of fake news in Arabic.
-
-10. **Deployment**:
-    - Saving the trained models and vectorizer for future use.
-    - Testing the models on real-world examples to ensure robustness.
 
 The goal of this project is to develop accurate and reliable machine learning models for detecting fake news in Arabic. These models can be useful for media organizations, researchers, and policymakers to combat misinformation and promote credible journalism.
