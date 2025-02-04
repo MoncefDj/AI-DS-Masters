@@ -12,6 +12,8 @@ You can access the complete set of course files for the AI and Data Science Mast
 
 I would like to express my gratitude to the instructors, professors, and fellow students who contributed to my learning journey.
 
+A special thanks to my friend [Abdessamad Sadoudi](https://github.com/Samad-sama) who was my partner through the whole journey.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
